@@ -3,7 +3,7 @@
 #   data: List of list consisting of leaves
 # Returns:
 #   A tuple containing the original two numbers.
-def reverse_karatsuba(data, level) -> tuple:
+def reverse_karatsuba(data, level=0) -> tuple:
     pass
 
 
