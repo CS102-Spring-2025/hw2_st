@@ -24,10 +24,10 @@ def count_all_supply_chain_connections(graph, warehouse_o, warehouse_i):
 def main():
     G = create_supply_chain('supply_chain.csv')
     print(count_all_supply_chain_connections(G, "W4", "W10"))
-    """ Expected Output: 16148 """
+    """ Expected Output: 17345 """
 
     print(count_all_supply_chain_connections(G, "W1", "W11"))
-    """ Expected Output: 74597 """
+    """ Expected Output: 82892 """
     
     print(count_all_supply_chain_connections(G, "W4", "W4"))
     """ Expected Output: 0 """
